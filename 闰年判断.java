@@ -10,5 +10,4 @@ public class 闰年判断 {
            System.out.println(year+"不是闰年");
        }
     }
-    
 }
