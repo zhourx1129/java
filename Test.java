@@ -61,7 +61,31 @@
 
 public class Test{
 	public static void main(String[] arge){
-		
+		// System.out.println(5/2); // 2
+		// System.out.println(5.0/2); // 2.5
+		// System.out.println((float)(5/2)); // 2.0
+		// System.out.println((float)5/2); // 2.5
+
+		// System.out.println(10%3); // 1
+		// System.out.println(-10%3);// -1
+		// System.out.println(10%-3); // 1
+		// System.out.println(-10%-3); // -1
+
+		// System.out.println(11%3); // 2
+		// System.out.println(-11%3);// -2
+		// System.out.println(11%-3); // 2
+		// System.out.println(-11%-3); // -2
+
+		// int i = 10;
+		// // i = i ++;
+		// // System.out.println(i); // 10 与C语言不同 C语言是 11
+		// i = (i+=2);
+		// System.out.println(i); // 12
+
+		int a = 10;
+		int b = 20;
+		System.out.println(!(a<b)); // false
+		System.out.println(a<b);
 	}
 }
 
