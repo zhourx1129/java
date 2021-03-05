@@ -59,8 +59,8 @@
 // 	}
 // }
 
-public class Test{
-	public static void main(String[] arge){
+// public class Test{
+// 	public static void main(String[] arge){
 		// System.out.println(5/2); // 2
 		// System.out.println(5.0/2); // 2.5
 		// System.out.println((float)(5/2)); // 2.0
@@ -82,13 +82,27 @@ public class Test{
 		// i = (i+=2);
 		// System.out.println(i); // 12
 
-		int a = 10;
-		int b = 20;
-		System.out.println(!(a<b)); // false
-		System.out.println(a<b);
+		// int a = 10;
+		// int b = 20;
+		// System.out.println(!(a<b)); // false
+		// System.out.println(a<b); //true
+
+// 	}
+// }
+
+import java.util.Scanner;
+public class Test{
+	public static void main(String[] args){
+		Scanner scan = new Scanner(System.in);
+		// 输入整型数字  
+		// int a = scan.nextInt();
+		// 如果是小数可以使用 nextFloat 或者 nextDouble
+		// System.out.println(a);
+		
+		String str = scan.nextLine();
+		System.out.println(str);
 	}
 }
-
 
 
 
