@@ -99,8 +99,11 @@ public class Test{
 		// 如果是小数可以使用 nextFloat 或者 nextDouble
 		// System.out.println(a);
 		
-		String str = scan.nextLine();
-		System.out.println(str);
+		// 输入字符
+		// String str = scan.nextLine();
+		// System.out.println(str);
+		// nextLine()会输入空格
+		// next 不会输入空格，与C语言的scanf相似
 	}
 }
 
